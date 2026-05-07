@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saints 'n Sinners | Luxury Nightlife Restaurant</title>
+    <meta name="description" content="An immersive cinematic dining experience. Lounge, Pub, and Restaurant.">
+    
+    <!-- Premium Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Initial Luxury Reveal -->
+    <div class="shutter">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 5V35M5 20H35" stroke="#D4AF37" stroke-width="1" stroke-linecap="square"/>
+        </svg>
+    </div>
+
+    <!-- Premium Floating Navigation -->
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" id="brand-logo-short">LOGO</a>
+            <ul class="nav-links" id="dynamic-nav">
+                <!-- Navigation items will be injected here -->
+            </ul>
+            <div class="nav-actions">
+                <div class="audio-control">
+                    <button id="audio-toggle" class="audio-btn" aria-label="Toggle Audio">
+                        <span class="audio-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                        </span>
+                    </button>
+                    <audio id="lounge-audio" loop>
+                        <!-- Dynamic Source -->
+                    </audio>
+                </div>
+                <button id="cart-toggle" class="cart-btn" aria-label="Open Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="home">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background" id="hero-bg-container"></div>
+            <div class="hero-overlay"></div>
+            <div class="branding">
+                <h1 class="brand-title" id="brand-title-display">Loading...</h1>
+                <p class="brand-subtitle" id="brand-tagline-display"></p>
+            </div>
+            <div class="cta-container">
+                <a href="#dynamic-start" class="cta-button" id="enter-btn">Come Inside</a>
+                <div class="cta-glow"></div>
+            </div>
+        </section>
+
+        <!-- Dynamic Menu Content -->
+        <div id="menu-container"></div>
+
+        <!-- Outro Section -->
+        <section class="outro-section" id="outro-container">
+            <!-- Dynamic Outro -->
+        </section>
+    </main>
+
+    <!-- Floating Luxury Action Button -->
+    <div class="luxury-fab">
+        <div class="fab-menu" id="fab-menu">
+            <a href="https://wa.me/263788235062?text=Hello%20Saints%20'n%20Sinners,%20I%20would%20like%20to%20reserve%20a%20table." target="_blank" class="fab-item">Reserve Table</a>
+            <a href="#" class="fab-item" id="share-btn">Share Experience</a>
+            <a href="https://wa.me/263788235062?text=Hello%20Saints%20'n%20Sinners,%20I%20need%20assistance%20at%20my%20table." target="_blank" class="fab-item">Call Waiter</a>
+        </div>
+        <button class="fab-trigger" id="fab-trigger">
+            <span class="fab-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </span>
+        </button>
+    </div>
+
+    <!-- Cart Drawer -->
+    <div id="cart-drawer" class="cart-drawer">
+        <div class="cart-drawer-header">
+            <h3>Your Selection</h3>
+            <button id="cart-close" class="close-btn">&times;</button>
+        </div>
+        <div id="cart-items" class="cart-drawer-items">
+            <!-- Cart items will be injected here -->
+            <p class="empty-cart-msg">Your selection is empty.</p>
+        </div>
+        <div class="cart-drawer-footer">
+            <div class="cart-details">
+                <div class="input-group">
+                    <label for="table-number">Table Number</label>
+                    <input type="number" id="table-number" placeholder="Enter number..." min="1">
+                </div>
+            </div>
+            <div class="cart-total">
+                <span>Subtotal</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button id="whatsapp-order" class="order-btn">Proceed to WhatsApp Order</button>
+        </div>
+    </div>
+
+    <!-- Interactions -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
