@@ -1,0 +1,40 @@
+{
+    "id": "gavas",
+    "name": "Gavas Kitchen",
+    "tagline": "Traditional Flavors. Modern Soul.",
+    "whatsapp": "263772123456",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "theme": {
+        "gold": "#ff5722",
+        "goldMuted": "rgba(255, 87, 34, 0.6)",
+        "charcoal": "#1a1a1a",
+        "ivory": "#ffffff"
+    },
+    "hero": {
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop",
+        "video": "",
+        "ctaText": "Explore Menu"
+    },
+    "categories": [
+        {
+            "id": "signature",
+            "name": "Signature Dishes",
+            "tagline": "The heart of Gavas Kitchen.",
+            "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2070&auto=format&fit=crop",
+            "items": [
+                { "name": "Spiced Lamb Chops", "description": "Tender lamb marinated in house spices.", "price": 12 },
+                { "name": "Gavas Platter", "description": "A mix of traditional grills and fresh sides.", "price": 25 }
+            ]
+        },
+        {
+            "id": "refreshments",
+            "name": "Refreshments",
+            "tagline": "Cool down with our fresh juices.",
+            "image": "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?q=80&w=2062&auto=format&fit=crop",
+            "items": [
+                { "name": "Hibiscus Zest", "description": "Chilled hibiscus tea with citrus.", "price": 4 },
+                { "name": "Palm Punch", "description": "Tropical fruit blend.", "price": 5 }
+            ]
+        }
+    ]
+}

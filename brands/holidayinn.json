@@ -1,0 +1,40 @@
+{
+    "id": "holidayinn",
+    "name": "Holiday Inn Lounge",
+    "tagline": "Comfort Meets Elegance.",
+    "whatsapp": "263712987654",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    "theme": {
+        "gold": "#0072bc",
+        "goldMuted": "rgba(0, 114, 188, 0.6)",
+        "charcoal": "#2c2c2c",
+        "ivory": "#f9f9f9"
+    },
+    "hero": {
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
+        "video": "",
+        "ctaText": "View selection"
+    },
+    "categories": [
+        {
+            "id": "executive-lunch",
+            "name": "Executive Lunch",
+            "tagline": "Quick and refined meals for the professional.",
+            "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop",
+            "items": [
+                { "name": "Classic Club Sandwich", "description": "Triple-decker with chicken, bacon, and egg.", "price": 9 },
+                { "name": "Caesar Salad", "description": "Crisp romaine, parmesan, and garlic croutons.", "price": 8 }
+            ]
+        },
+        {
+            "id": "evening-cocktails",
+            "name": "Evening Cocktails",
+            "tagline": "Unwind after a long day.",
+            "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop",
+            "items": [
+                { "name": "Holiday Martini", "description": "Our signature blend of premium spirits.", "price": 10 },
+                { "name": "Old Fashioned", "description": "Classic and dependable.", "price": 9 }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "id": "saints",
+    "name": "Saints 'n Sinners",
+    "tagline": "A Sanctuary of Flavor. A Den of Indulgence.",
+    "whatsapp": "263788235062",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+    "theme": {
+        "gold": "#d4af37",
+        "goldMuted": "rgba(212, 175, 55, 0.6)",
+        "charcoal": "#0a0a0a",
+        "ivory": "#f5f5f5"
+    },
+    "hero": {
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop",
+        "video": "",
+        "ctaText": "Come Inside"
+    },
+    "categories": [
+        {
+            "id": "morning-glory",
+            "name": "Morning Glory",
+            "tagline": "Breakfast for the early saints and the late sinners.",
+            "image": "https://images.unsplash.com/photo-1496042399014-17f06bb9d821?q=80&w=2070&auto=format&fit=crop",
+            "items": [
+                { "name": "French Temptation", "description": "Classic French Toast served with maple syrup and seasonal berries.", "price": 3 },
+                { "name": "Waking & Bacon", "description": "Crispy bacon, scrambled eggs, and toasted sourdough.", "price": 4 },
+                { "name": "Rise & Sin", "description": "Our signature breakfast bowl with chorizo and spiced potatoes.", "price": 5 },
+                { "name": "The Morning After", "description": "The ultimate hangover cure: Double patty, fried egg, and hash brown.", "price": 7 },
+                { "name": "Breakfast Wrap", "description": "Scrambled eggs, bacon, and cheddar in a toasted tortilla.", "price": 5 }
+            ]
+        },
+        {
+            "id": "steaks",
+            "name": "The Butchers Block",
+            "tagline": "Prime cuts, perfectly aged, flawlessly seared.",
+            "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069&auto=format&fit=crop",
+            "items": [
+                { "name": "Quarter to Saint", "description": "250g Rump steak, flame-grilled to your liking.", "price": 6 },
+                { "name": "The Hush Steak", "description": "300g T-Bone steak with house basting.", "price": 8 },
+                { "name": "The Forbidden Sinner", "description": "400g Ribeye steak, incredibly tender and marbled.", "price": 9 },
+                { "name": "Half Way to Hell", "description": "500g Cowboy Cut bone-in ribeye.", "price": 10 },
+                { "name": "The Sinners Cut", "description": "600g Fillet mignon, the most tender experience.", "price": 10 },
+                { "name": "The Holy Roast", "description": "Shared platter of roasted prime rib (Serves 2-3).", "price": 20 }
+            ]
+        },
+        {
+            "id": "extra-indulgences",
+            "name": "Extra Indulgences",
+            "tagline": "Small bites with a big impact.",
+            "image": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?q=80&w=1964&auto=format&fit=crop",
+            "items": [
+                { "name": "Bacon", "description": "Three strips of crispy wood-smoked bacon.", "price": 1 },
+                { "name": "Egg", "description": "Fried or scrambled to perfection.", "price": 1 },
+                { "name": "Cheese", "description": "A slice of melted aged cheddar.", "price": 1 },
+                { "name": "Grilled Chicken Bites", "description": "Marinated strips of tender chicken breast.", "price": 2 },
+                { "name": "Beef Balls", "description": "Hand-rolled savory beef meatballs.", "price": 2 },
+                { "name": "Mushroom", "description": "Garlic-sautéed wild mushrooms.", "price": 2 },
+                { "name": "Mushroom Sauce", "description": "Rich creamy mushroom dipping sauce.", "price": 2 },
+                { "name": "Fresh Fries", "description": "Hand-cut potato fries with sea salt.", "price": 2 }
+            ]
+        },
+        {
+            "id": "burgers",
+            "name": "Burgers",
+            "tagline": "Gourmet burgers designed for pure satisfaction.",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1599&auto=format&fit=crop",
+            "items": [
+                { "name": "Saintly Slider", "description": "Mini beef burger with caramelised onions.", "price": 6 },
+                { "name": "The Virgin Saint", "description": "Classic beef burger with lettuce and tomato.", "price": 7 },
+                { "name": "Cheesy Sin", "description": "Double cheese beef burger.", "price": 7 },
+                { "name": "Cheese & Mushroom", "description": "Beef burger topped with garlic mushrooms and swiss cheese.", "price": 7 },
+                { "name": "The Saints Signature", "description": "Wagyu beef, bacon, and signature sauce.", "price": 10 },
+                { "name": "Holly Smokey Big Daddy", "description": "Giant triple-stacked burger with BBQ brisket.", "price": 12 }
+            ]
+        },
+        {
+            "id": "platters",
+            "name": "The Fellowship Platters",
+            "tagline": "Feasts designed to be shared among friends.",
+            "image": "https://images.unsplash.com/photo-1559813634-19a933633827?q=80&w=2070&auto=format&fit=crop",
+            "items": [
+                { "name": "Saintly Paired", "description": "Half chicken and 200g ribs served with fries.", "price": 17 },
+                { "name": "The Fallen", "description": "Full platter of buffalo wings and loaded fries.", "price": 20 },
+                { "name": "The Wingman", "description": "24 wings with four different house sauces.", "price": 17 },
+                { "name": "Holy Rib Feast", "description": "1kg of slow-cooked pork ribs with honey glaze.", "price": 29 },
+                { "name": "Damned Good Feast For 4", "description": "Mixed grill including steak, chicken, and ribs.", "price": 35 },
+                { "name": "The Fallen Saints For 8", "description": "The ultimate party platter: everything on the menu.", "price": 60 }
+            ]
+        },
+        {
+            "id": "snacks",
+            "name": "Snacks & Light Bites",
+            "tagline": "For those who want to keep it light but flavorful.",
+            "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=2070&auto=format&fit=crop",
+            "items": [
+                { "name": "Salad of the Day", "description": "Freshly prepared seasonal ingredients.", "price": 3 },
+                { "name": "Saintly Strip", "description": "Crunchy chicken strips with honey mustard.", "price": 5 },
+                { "name": "Grilled Chicken Salad", "description": "Light and fresh with lemon-herb dressing.", "price": 6 },
+                { "name": "Sinners Wings", "description": "Spicy traditional buffalo wings.", "price": 6 },
+                { "name": "Super Fryer Tuck", "description": "Golden battered fish and chips basket.", "price": 6 },
+                { "name": "Holy Wrap!!", "description": "Chicken, avocado, and feta wrap.", "price": 7 },
+                { "name": "Issa Wrap", "description": "Spiced beef and vegetable wrap.", "price": 7 },
+                { "name": "Hot Wings", "description": "Extremely spicy wings for the brave souls.", "price": 7 }
+            ]
+        },
+        {
+            "id": "sides",
+            "name": "Sides",
+            "tagline": "The perfect companions to your indulgence.",
+            "image": "",
+            "items": [
+                { "name": "Creamy Spinach", "description": "Sautéed fresh spinach in a rich, velvety cream sauce.", "price": 3 },
+                { "name": "Savory Rice", "description": "Fragrant long-grain rice seasoned with aromatic herbs.", "price": 2 },
+                { "name": "Garlic Bread", "description": "Toasted baguette infused with garlic butter and fresh parsley.", "price": 3 },
+                { "name": "Onion Rings", "description": "Crispy, golden-brown battered onion rings served with a spicy dip.", "price": 4 }
+            ]
+        },
+        {
+            "id": "beverages",
+            "name": "Beverages",
+            "tagline": "Quench your thirst with our selection of fine drinks.",
+            "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=2125&auto=format&fit=crop",
+            "items": [
+                { "name": "Americano", "description": "Rich espresso topped with hot water.", "price": 2 },
+                { "name": "Cappuccino", "description": "Double espresso with steamed milk and foam.", "price": 2.5 },
+                { "name": "Cafe Latte", "description": "Smooth espresso with steamed milk.", "price": 2.5 },
+                { "name": "Chai Latte", "description": "Aromatic spiced tea with steamed milk.", "price": 2 },
+                { "name": "Hot Chocolate", "description": "Decadent melted chocolate with frothy milk.", "price": 2 },
+                { "name": "Cafe Mocha", "description": "Espresso mixed with chocolate and steamed milk.", "price": 3 }
+            ]
+        }
+    ]
+}
